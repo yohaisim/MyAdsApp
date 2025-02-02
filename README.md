@@ -1,40 +1,91 @@
-# 📢 MyAdsApp - Android Ad Display App  
+<h1 align="center">📢 MyAdsApp - Simple Ad Display Application</h1>
 
-[![Ads Library](https://your-image-link-here.jpg)](https://your-github-repo-link)
-
-## 🎯 About This Project  
-**MyAdsApp** is a simple Android application that fetches and displays advertisements using the custom library `AdsLibrary`, which was built and published via **JitPack**.  
-The app rotates multiple ads every **10 seconds**, supports click tracking, and provides a smooth fade-in/fade-out transition.
-
-## 🏗️ Built With
-- **Android Studio** (Java)
-- **Retrofit** (for API requests)
-- **Picasso** (for image loading)
-- **JitPack** (for dependency management)
-
-## 📦 Features  
-✅ Fetches ads dynamically from the API  
-✅ Displays ads in a **centered wide rectangle**  
-✅ **Auto-rotating ads** with a **10-second timer**  
-✅ Smooth **fade-in / fade-out** transition effects  
-✅ **Click tracking & view reporting** via API  
-✅ Fully **integrated with AdsLibrary** via JitPack  
-
-## 📸 App Preview  
-![App Preview](https://your-image-link-here.jpg)  
+<p align="center">
+  <img src="https://your-image-link-here.jpg" width="600" alt="MyAdsApp Screenshot">
+</p>
 
 ---
 
-## 🔧 Installation  
+## 📌 Project Overview
 
-### 1️⃣ Add JitPack to `settings.gradle`
-Ensure your project includes JitPack as a repository:
-```gradle
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
-    }
-}
+This project is a **simple Android application** that fetches advertisements from a Flask-based backend, displays them in a loop, and tracks views and clicks.  
+
+It was built as part of a **learning experiment** to develop a full-stack ad-serving system, from backend to frontend, including a reusable Android library.
+
+---
+
+## 🛠️ What I Did  
+
+### 1️⃣ **Setting Up the Flask Server**
+- Created a **Flask backend** to store ad data in **MongoDB Atlas**.
+- Repository: 🔗 [FlaskAds_Server](https://github.com/yohaisim/FlaskAds_Server)
+  
+### 2️⃣ **Testing API Requests**
+- Used **Postman** to send **POST/GET requests** to manage ads.  
+- Experimented with adding, updating, and deleting ads.  
+
+### 3️⃣ **Building an Admin Web Interface**
+- Developed a **web-based control panel** for managing ads.  
+- Features:
+  ✅ **Add/Delete ads**  
+  ✅ **Track views and clicks**  
+  ✅ **Monitor ad performance**  
+
+<p align="center">
+  <img src="https://your-image-link-here.jpg" width="600" alt="Ad Management Panel">
+</p>
+
+### 4️⃣ **Developing the Android App**
+- Built an Android app to:
+  ✅ Fetch ads from the **Flask server**  
+  ✅ Display them with a **10-second rotation**  
+  ✅ Track views & clicks  
+
+- Deployed the Flask backend to **Vercel** for public access.
+
+### 5️⃣ **Creating a Reusable Android Library**
+- Converted the ad-fetching logic into an **Android library**.
+- Published the library via **JitPack**.
+
+### 6️⃣ **Building a New App Using the Library**
+- Created a **new Android app** that imports the library and displays ads.
+
+<p align="center">
+  <img src="https://your-image-link-here.jpg" width="600" alt="App Running Ads">
+</p>
+
+---
+
+## 🏗️ Technologies Used  
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>Backend</strong></td>
+    <td align="center"><strong>Frontend</strong></td>
+    <td align="center"><strong>Android</strong></td>
+  </tr>
+  <tr>
+    <td>⚡ Flask (Python)</td>
+    <td>🌍 HTML/CSS + JavaScript</td>
+    <td>📱 Android Studio (Java)</td>
+  </tr>
+  <tr>
+    <td>🛢 MongoDB Atlas</td>
+    <td>📊 Postman (API Testing)</td>
+    <td>🔄 Retrofit + Picasso</td>
+  </tr>
+  <tr>
+    <td>☁️ Vercel (Deployment)</td>
+    <td>📊 Web Ad Management Panel</td>
+    <td>📦 JitPack (Library Distribution)</td>
+  </tr>
+</table>
+
+---
+
+## 🚀 How to Run  
+
+### 1️⃣ **Clone This Repository**
+```bash
+git clone https://github.com/yohaisim/MyAdsApp.git
+cd MyAdsApp
