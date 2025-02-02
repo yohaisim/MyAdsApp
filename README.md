@@ -1,7 +1,7 @@
 <h1 align="center">📢 MyAdsApp - Simple Ad Display Application</h1>
 
 <p align="center">
-  <img src="https://i.postimg.cc/gkB83tH6/2025-02-02-122026.png" width="600" alt="MyAdsApp Screenshot">
+  <img src="https://a.storyblok.com/f/47007/2400x628/33dc969123/social-media-teaser.png/m/filters:quality(80)" width="600" alt="MyAdsApp Screenshot">
 </p>
 
 <hr>
@@ -9,9 +9,9 @@
 <h2>📌 Project Overview</h2>
 
 <p>
-This project is a <b>simple Android application</b> that fetches advertisements from a Flask-based backend, 
+I am a <b>computer science student</b>, and this project was developed as part of the <b>Mobile Technology Seminar</b>.  
+It is a <b>simple Android application</b> that fetches advertisements from a Flask-based backend, 
 displays them in a loop, and tracks views and clicks.  
-It was built as part of a <b>learning experiment</b> to develop a full-stack ad-serving system, from backend to frontend, including a reusable Android library.
 </p>
 
 <hr>
@@ -121,34 +121,6 @@ dependencies {
   <li>Click <b>Run ▶</b> in Android Studio.</li>
   <li>The app will <b>fetch ads from the Flask server</b> and <b>display them in a loop</b>.</li>
 </ul>
-
-<hr>
-
-<h2>📝 Example Code</h2>
-
-<pre>
-<code>
-ApiService apiService = RetrofitClient.getClient().create(ApiService.class);
-Call<List<Ad>> call = apiService.getAds();
-
-call.enqueue(new Callback<List<Ad>>() {
-    @Override
-    public void onResponse(Call<List<Ad>> call, Response<List<Ad>> response) {
-        if (response.isSuccessful() && response.body() != null) {
-            Ad ad = response.body().get(0);
-            adTitle.setText(ad.getTitle());
-            adDescription.setText(ad.getDescription());
-            Picasso.get().load(ad.getImageUrl()).into(adImage);
-        }
-    }
-
-    @Override
-    public void onFailure(Call<List<Ad>> call, Throwable t) {
-        Log.e("API_ERROR", "Error fetching ads", t);
-    }
-});
-</code>
-</pre>
 
 <hr>
 
