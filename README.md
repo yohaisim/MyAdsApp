@@ -32,7 +32,7 @@ It was built as part of a **learning experiment** to develop a full-stack ad-ser
   ✅ **Monitor ad performance**  
 
 <p align="center">
-  <img src="https://i.postimg.cc/gkB83tH6/2025-02-02-122026.png" width="600" alt="Ad Management Panel">
+  <img src="https://i.postimg.cc/gkB83tH6/2025-02-02-122026.png" width="800" alt="Ad Management Panel">
 </p>
 
 ### 4️⃣ **Developing the Android App**
@@ -51,7 +51,7 @@ It was built as part of a **learning experiment** to develop a full-stack ad-ser
 - Created a **new Android app** that imports the library and displays ads.
 
 <p align="center">
-  <img src="https://i.postimg.cc/T3M7rP9b/Screenshot-20250202-122610.png" width="600" alt="App Running Ads">
+  <img src="https://i.postimg.cc/T3M7rP9b/Screenshot-20250202-122610.png" width="200" alt="App Running Ads">
 </p>
 
 ---
