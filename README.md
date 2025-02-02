@@ -32,7 +32,7 @@ It was built as part of a **learning experiment** to develop a full-stack ad-ser
   ✅ **Monitor ad performance**  
 
 <p align="center">
-  <img src="https://your-image-link-here.jpg" width="600" alt="Ad Management Panel">
+  <img src="[https://your-image-link-here.jpg](https://i.postimg.cc/gkB83tH6/2025-02-02-122026.png)" width="600" alt="Ad Management Panel">
 </p>
 
 ### 4️⃣ **Developing the Android App**
