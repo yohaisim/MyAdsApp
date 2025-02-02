@@ -1,7 +1,7 @@
 <h1 align="center">📢 MyAdsApp - Simple Ad Display Application</h1>
 
 <p align="center">
-  <img src="https://your-image-link-here.jpg" width="600" alt="MyAdsApp Screenshot">
+  <img src="https://a.storyblok.com/f/47007/2400x628/33dc969123/social-media-teaser.png/m/filters:quality(80)" width="600" alt="MyAdsApp Screenshot">
 </p>
 
 ---
@@ -51,7 +51,7 @@ It was built as part of a **learning experiment** to develop a full-stack ad-ser
 - Created a **new Android app** that imports the library and displays ads.
 
 <p align="center">
-  <img src="https://your-image-link-here.jpg" width="600" alt="App Running Ads">
+  <img src="https://i.postimg.cc/T3M7rP9b/Screenshot-20250202-122610.png" width="600" alt="App Running Ads">
 </p>
 
 ---
