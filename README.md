@@ -141,7 +141,7 @@ dependencies {
 <h2>📜 License</h2>
 <p>This project is <b>open-source</b> and free to use.</p>
 
-<p>📩 <b>Contact:</b> yohaiasim@gmail.com</p>
+<p>📩 <b>Contact:</b> yohaiasimhony@gmail.com</p>
 
 <hr>
 
