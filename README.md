@@ -81,11 +81,4 @@ It was built as part of a **learning experiment** to develop a full-stack ad-ser
   </tr>
 </table>
 
----
 
-## 🚀 How to Run  
-
-### 1️⃣ **Clone This Repository**
-```bash
-git clone https://github.com/yohaisim/MyAdsApp.git
-cd MyAdsApp
